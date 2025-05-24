@@ -1,20 +1,5 @@
 {
     "mcpServers": {
-      "investor": {
-        "command": "uv",
-        "args": [
-          "run",
-          "--with",
-          "mcp[cli]",
-          "--with",
-          "pandas",
-          "--with",
-          "openpyxl",
-          "mcp",
-          "run",
-          "/mnt/c/Users/flavi/Documents/mcp-investor/fastapi-mcp-investor/main.py"
-        ]
-      },
       "fastapi-investor": {
         "serverUrl": "http://localhost:8000/mcp"
       }
